@@ -1,0 +1,16 @@
+﻿<Window x:Name="Split_NSP" x:Class="SplitNSP.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SplitNSP"
+        mc:Ignorable="d"
+        Title="Split NSP" Height="116" Width="483.5">
+    <Grid>
+        <Button x:Name="startTrim_Button" Content="Trim!" HorizontalAlignment="Left" Margin="10,38,0,0" VerticalAlignment="Top" Width="456" Click="Button_Click"/>
+        <Button x:Name="filePathSelect_Button" Content="Select" HorizontalAlignment="Left" Margin="368,11,0,0" VerticalAlignment="Top" Width="98" Click="FilePathSelect_Button_Click"/>
+        <ProgressBar Name="pbStatus" HorizontalAlignment="Left" Height="10" Margin="10,65,0,0" VerticalAlignment="Top" Width="456"/>
+        <TextBox Name="nspFileName_TextBox" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="NSP File" VerticalAlignment="Top" Width="353" IsEnabled="False" Background="#FF707070" Foreground="Black"/>
+
+    </Grid>
+</Window>
